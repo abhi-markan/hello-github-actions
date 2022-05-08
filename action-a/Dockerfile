@@ -1,5 +1,5 @@
 FROM debian:9.5-slim
 
-ADD entry.sh /entry.sh
-RUN chmod +x /entry.sh
-ENTRYPOINT ["/entry.sh"]
+ADD entrypoing.sh /entrypoing.sh
+RUN chmod +x /entrypoing.sh
+ENTRYPOINT ["/entrypoing.sh"]
