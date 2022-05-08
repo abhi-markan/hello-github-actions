@@ -1,0 +1,17 @@
+name: "Hello world"
+description: "GitHub Actions test"
+author: "@abhi-markan"
+
+inputs:
+  MY_NAME:
+    description: "Name"
+    required: true
+    default: "Abhi Markan"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "blue"
